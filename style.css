@@ -43,6 +43,17 @@ body {
     color: #F9FAF8;
 }
 
+.card1,
+.card2,
+.card3,
+.card4 {
+    height: 170px;
+    width: 170px;
+    border: #3882F6 solid 4px;
+    border-radius: 8px;
+}
+
+
 /* Flexcontainer - it includes EVERYTHING in the header and main section. */
 
 .flex-container {
@@ -51,7 +62,6 @@ body {
     background-color: #1F2937;
     display: flex;
     flex-direction: column;
-    height: 530px;
     width: 1440px;
 }
 
@@ -111,4 +121,143 @@ body {
     display: flex;
     align-items: center;
     padding-left: 24%;
+}
+
+/* Flexcontainer - this one has body title as well as the cards inside it */
+
+.flex-bodycontainer {
+    /* border: yellow solid 2px; */
+    display: flex;
+    background-color: #FFFFFF;
+    height: 500px;
+    flex-wrap: wrap;
+    justify-content: center;
+    margin-bottom: -100px;
+}
+
+/* Flexcontainer - this one contains ONLY the body-title information */
+
+.bodytitle-container {
+    display: flex;
+    flex-basis: 100%;
+    justify-content: center;
+    font-size: 36px;
+    font-weight: 800;
+    color: #1F2937;
+}
+
+.card-container {
+    /* border: red solid 2px; */
+    display: flex;
+    gap: 50px;
+    margin-bottom: 0px;
+    flex-wrap: wrap;
+}
+
+.card-textcontainer {
+    display: flex;
+    flex-basis: 60%;
+    height: 250px;
+    width: 170px;
+    text-align: center;
+    gap: 60px;
+    color: #4B5563;
+}
+
+.flex-quote {
+    display: flex;
+    background-color: #E5E7EB;
+    height: 430px;
+    flex-basis: 100%;
+    margin-top: -81px;
+}
+
+.quote-container {
+    font-style: italic;
+    font-weight: lighter;
+    font-size: 36px;
+    color: #1F2937;
+    display: flex;
+    flex: 1;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+    text-align: left;
+    padding-left: 340px;
+    padding-right: 310px;
+    padding-top: 140px;
+    padding-bottom: 100px;
+}
+
+.quote-container2 {
+    align-self: flex-start;
+    font-size: 26px;
+    font-style: normal;
+    font-weight: 500;
+    margin-left: 460px;
+    margin-top: -70px;
+}
+
+.flex-signup {
+    display: flex;
+    height: 350px;
+    background-color: #FFFFFF;
+    flex-basis: 100%;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+}
+
+.signup-right {
+    display: flex;
+    margin-right: 130px;
+}
+
+.flex-signupcontainer {
+    display: flex;
+    background-color: #3882F6;
+    width: 1025px;
+    height: 150px;
+    border-radius: 8px;
+    justify-content: space-between;
+    align-items: center;
+    color: #FFFFFF;
+    flex-wrap: wrap;
+}
+
+.footer-container {
+    display: flex;
+    height: 100px;
+    background-color: #1F2937;
+    flex-basis: 100%;
+    align-items: center;
+    justify-content: center;
+    color: #FFFFFF;
+}
+
+.signup-textbold {
+    font-size: 24px;
+    font-weight: 500;
+    padding: 0%;
+}
+
+.signup-text {
+    margin-top: -20px;
+    font-size: 18px;
+    font-weight: 300;
+}
+
+.signup-container {
+    margin-left: 130px;
+}
+
+#signup-button {
+    height: 35px;
+    width: 130px;
+    border-radius: 8px;
+    border: white solid 2px;
+    background-color: #3882F6;
+    color: #FFFFFF;
+    font-size: 18px;
+    font-weight: 600;
 }
